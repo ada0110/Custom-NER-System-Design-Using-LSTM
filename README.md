@@ -1,11 +1,11 @@
 # Custom-NER-System-Design-Using-LSTM
 
-Used SpaCy to annotate the data and tried various embedding techniques to train LSTM based named entity recognition model.
+Used SpaCy and Stanford NER (Stanza) to annotate the data and tried various embedding techniques to train LSTM based named entity recognition model.
 
 **Data**
 - Used Newsroom data from `sklearn.datasets`  
 - Number of data samples ~18k and we used train:test split of 80:20.
-- Annotated the data using Spacy and Stanford NER using BIOS encoding. For creating annotated documents we have considered only three entities and they are PERSON, LOC and ORG and all the other entities are considered as MISC. Here, we have converted text into tokens for annotating. 
+- Annotated the data using Spacy and Stanza using BIOS encoding. For creating annotated documents we have considered only three entities and they are PERSON, LOC and ORG and all the other entities are considered as MISC. Here, we have converted text into tokens for annotating. 
 ```
 'PER' for person
 'ORG' for organization
