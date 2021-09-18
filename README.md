@@ -1,4 +1,4 @@
-# Custom-NER-system-design-using-LSTM-
+# Custom-NER-System-Design-Using-LSTM
 
 Used SpaCy to annotate the data and tried various embedding techniques to train LSTM based named entity recognition model.
 
